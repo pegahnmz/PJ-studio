@@ -1,0 +1,230 @@
+*{
+    margin: 3px 10px;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+section{
+    margin-bottom:120px;
+}
+header{
+   
+    padding: 3px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.logo{
+    height: 60px;
+}
+.nav-list{
+    font-size: 16px;
+    list-style: none;
+}
+.nav-item{
+    display:inline-block;
+    padding: 0px 20px;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease 0s;
+}
+.nav-link:hover{
+    color: rgb(120, 83, 247);
+}
+.btn{
+    
+    border: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    background-color: rgb(120, 83, 247);
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(103, 85, 160);;
+}
+.hero{
+    
+   
+    padding: 3px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+.hero h1{
+    font-size: 80px;
+}
+.process{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.process-main h1{
+    font-weight:100px;
+    font-size: 65px;
+}
+.process-main p{
+    font-size: 25px;
+}
+.process-icon{
+    width: 65px;
+    border-radius: 5px;
+    padding: 7px;
+    color: white;
+}
+.process-tag{
+    width: 20%;
+    background-color: rgba(188, 196, 196, 0.589);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px 0px;
+    transition: all 0.3s ease-in-out;
+}
+.process-tag h2{
+    padding: 10px 0px;
+}
+.process-tag p{
+    font-size: 12px;
+}
+.process-tag:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+    box-shadow: 5px 5px 10px 0px rgba(126, 124, 124, 0.678);
+}
+.process-tag.daily{
+    background-color: rgba(214, 184, 100, 0.747);
+    box-shadow: 5px 5px 10px 0px rgba(92, 91, 91, 0.678);
+}
+.mobileapp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.mobileapp-img{
+    height: 40rem;
+}
+.mobileapp-icon{
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.mobileapp-item h3{
+    padding: 6px 0px;
+}
+.mobileapp-wrap{
+    display: flex;
+
+}
+.mobileapp-features h1{
+    font-size: 70px;
+}
+.mobileapp-features .ptag{
+    font-size: 30px;
+}
+.mobileapp-features{
+    background-color: rgba(238, 238, 238, 0.37);
+    height: fit-content;
+    border-radius: 5px;
+    padding: 6px 40px;
+}
+.customize-offers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+.customize-offers-img{
+    height: 30rem;
+}
+.customize-offers-inner{
+    display: flex;
+    
+}
+.customize-offers-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mo-tags{
+    padding: 30px 40px;
+    border-left: 7px solid ;
+    box-shadow: 0px 0px 10px 0px rgb(212, 212, 212);
+    border-radius: 7px;
+    transition: all 0.3s ease-in-out ;
+}
+.mo-tags:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.048);
+     
+}
+
+
+
+.web{
+    background-color: rgba(252, 240, 240, 0.575);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.web-img{
+   width:45rem;
+}
+.web-icon{
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.web-item h3{
+    padding: 6px 0px;
+}
+.web-wrap{
+    display: flex;
+    justify-content: space-between;
+
+}
+.web-features h1{
+    font-size: 60px;
+}
+.web-features .ptag{
+    font-size: 20px;
+}
+.web-features{
+    background-color: rgb(255, 255, 255);
+    height: fit-content;
+    padding: 6px 40px;
+    margin: 0;
+}
+
+.signup{
+    box-shadow: 0px 4px 3px 0px rgba(179, 179, 179, 0.377);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.signup-img{
+   width:35rem;
+}
+.signup h1{
+    font-size: 60px;
+}
+.signup p{
+    font: 30px;
+    padding: 20px 0px;
+}
