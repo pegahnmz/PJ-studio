@@ -4,49 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pj Studio</title>
+    <title>PJ Studio</title>
 
     <link rel="stylesheet" href="./style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
 </head>
 <body>
     <header>
-            <a href="./index.html" class="nav-logo">
-                <img src="./images/pj logo.png" alt="logo" class="logo">
-            </a>
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Features</a>
+            <nav class="nav container">
+                <a href="./index.html">
+                    <img src="./images/pj logo.png" alt="logo" class="logo">
+                </a>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Features</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">About Us</a>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">About Us</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Pricing</a>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Pricing</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Feedback</a>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Feedback</a>
                     </li>
-
                 </ul>
-            </nav>
-            <button type="button" class="btn">Request a demo</button>
+                <button type="button" class="btn">Request a demo</button> 
+            </nav>              
     </header>
+
     <main>
         <section>
-            <div class="hero">
+            <div class="container ">
                 <div>
-                    <h1>
-                        Web & Mobile <br>
-                        Design <br>
-                        Development <br>
+                    <h1 class="hero__title">
+                        Web & Mobile Design Development 
                     </h1>
                     <br>
-                    <p>Helps you to organize your income and expenses</p>
+                    <p class="paragraph__text">Helps you to organize your income and expenses</p>
                     <br>
                     <button class="btn">Try free demo <i class="fas fa-chevron-down"></i></button>
-                    <span>-Web,iOs and Androids</span>
+                    <span class="sub-paragraph">-Web,iOs and Androids</span>
                 </div>
                 <div>
                     <img src="./images/hero.png" alt="#">
@@ -54,128 +54,175 @@
             </div>
         </section>
         <section>
-            <div class="process">
-                <div class="process-main">
-                    <h1>
-                        Our <br>
-                        Process
+            <div class="container process">
+                <div class="">
+                    <h1 class="section__title">
+                        Our Process
                     </h1>
-                    <p>Helps you to organize your <br> income and expenses</p>
-                </div>
-                <div class="process-tag daily">
-                    <img src="./images/SVG/daily.svg" alt="icon" class="process-icon" style="background-color: rgb(241, 172, 93);">
-                    <h2>Daily Standup</h2>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <p>conse...</p>
+                    <p class="paragraph__text">Helps you to organize your income and expenses</p>
                 </div>
                 <div class="process-tag">
-                    <img src="./images/SVG/security.svg" alt="icon" class="process-icon" style="background-color: rgb(157, 157, 226);">
-                    <h2>Weekly Syn,meetiing</h2>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <p>conse...</p>
+                    <img src="./images/SVG/daily.svg" alt="icon" class="process-icon daily-icon" >
+                    <h2 class="section__subtitle">Daily Standup</h2>
+                    <p class="sub-paragraph">Lorem ipsum dolor sit hiju me amet.conse...</p>
+                    
                 </div>
                 <div class="process-tag">
-                    <img src="./images/SVG/testing.svg" alt="icon" class="process-icon" style="background-color: rgb(238, 95, 95);">
-                    <h2>User Testing</h2>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <p>conse...</p>
+                    <img src="./images/SVG/security.svg" alt="icon" class="process-icon security-icon" >
+                    <h2 class="section__subtitle">Weekly Syn,meetiing</h2>
+                    <p class="sub-paragraph">Lorem ipsum dolor sit amet hji ou.conse...</p>
+                    
+                </div>
+                <div class="process-tag">
+                    <img src="./images/SVG/testing.svg" alt="icon" class="process-icon testing-icon">
+                    <h2 class="section__subtitle">User Testing</h2>
+                    <p class="sub-paragraph">Lorem ipsum dolor sit yes sure amet.conse...</p>
+                    
                 </div>
             </div>
         </section>
-        <section>
-            <div class="mobileapp">
-                <img src="./images/iphone.png" alt="#" class="mobileapp-img">
+        <section class="mobile">
+            <div class="container">
+               <img src="./images/phone-app.png" alt="#" class="mobileapp-img"> 
                 <div class="mobileapp-features">
-                    <p class="ptag">FEATURES</p> <br>
-                    <h1>Mobile App</h1>
-                    <br>
-                    <p class="ptag">Tellus lacus morbi sagittis lacus in <br>
-                        maur enim accumsan nisitacio vel <br>
-                        ipsum de rafee
+                    <p class="paragraph__text">FEATURES</p> 
+                    <h1 class="section__title">Mobile App</h1>
+                    <p class="sub-paragraph">
+                        ipsum de rafee Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Veritatis odit itaque obcaecati, incidunt quibusdam maiores optio quis,
+                          perspiciatis libero veniam distinctio aliquam ipsa
+                         necessitatibus commodi at doloribus laudantium blanditiis inventore.
                     </p>
-                    <br>
-                    <br>
                     <div class="mobileapp-wrap">
                         <div class="mobileapp-item">
-                            <img src="./images/SVG/ui and ux.png" alt="#" class="mobileapp-icon" style="background-color: rgb(148, 216, 148);">
-                            <br>
-                            <h3>UI & UX Design</h3>
-                            <p>Lorem ipsum doir deefas t <br>Lorem ipsum doir deefas t </p>
+                            <img src="./images/SVG/ui and ux.png" alt="#" class="mobileapp-icon icon1">
+                             
+                            <h3 class="section__subtitle">UI & UX Design</h3>
+                            <p class="sub-paragraph">Lorem ipsum doir deefas t Lorem ipsum doir deefas t </p>
                         </div>
                         <div class="mobileapp-item">
-                            <img src="./images/SVG/native ios.png" alt="#" class="mobileapp-icon" style="background-color: rgb(148, 180, 216);">
-                            <br>
-                            <h3>Native iOs App</h3>
-                            <p>Lorem ipsum doir deefas t <br>Lorem ipsum doir deefas t </p>
+                            <img src="./images/SVG/native ios.png" alt="#" class="mobileapp-icon icon2">
+                            <h3 class="section__subtitle">Native iOs App</h3>
+                            <p class="sub-paragraph">Lorem ipsum doir deefas t Lorem ipsum doir deefas t </p>
                         </div>
                     </div>
                 </div>
                 
             </div>
         </section>
-        <section>
-            <div class="customize-offers">
-                <h1 class="title">Customize Offer</h1>
-                
-                <div class="customize-offers-inner">
-                    <img src="./images/young person.png" alt="#" class="customize-offers-img">
-                    <div class="customize-offers-items">
-                        <div class="mo-tags" style="border-color: orange;">
-                            <h1 >Custom CMS</h1>
-                            <p>This is custom cms,check it</p>
+        <section class="customize-offers">
+            <h1 class="section__title">Customize Offer</h1>
+            <div class="container">
+                <img src="./images/offer-vector.png " alt="#" class="customize-offers-img">
+                    <div class="customize-offers">
+                        <div class="mo-tags">
+                            <h1 class="section__subtitle">Custom CMS</h1>
+                            <p class="sub-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                         </div>
-                        <div class="mo-tags" style="border-color: purple;">
-                            <h1>Payment Processing</h1>
-                            <p>This is custom cms,check it</p>
+                        <div class="mo-tags">
+                            <h1 class="section__subtitle">Payment Processing</h1>
+                            <p class="sub-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
                         </div>
-                        <div class="mo-tags" style="border-color: green;">
-                            <h1>App Store Submission</h1> 
-                            <p>This is custom cms,check it</p>
+                        <div class="mo-tags">
+                            <h1 class="section__subtitle">App Store Submission</h1> 
+                            <p class="sub-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                     </div>
-                </div>
             </div>
         </section>
-        <section>
-            <div class="web">
-                <div class="web-features">
-                    <p class="ptag">FEATURES</p> <br>
-                    <h1>Web Development</h1>
-                    <br>
-                    <p class="ptag">Tellus lacus morbi sagittis lacus in <br>
-                        maur enim accumsan nisitacio vel <br>
-                        ipsum de rafee
+        <section class="web">
+            <div class="container">
+                <div class="mobileapp-features">
+                    <p class="paragraph__text">FEATURES</p> 
+                    <h1 class="section__title">Web Development</h1>
+                    <p class="sub-paragraph">
+                        ipsum de rafee Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Veritatis odit itaque obcaecati, incidunt quibusdam maiores optio quis,
+                          perspiciatis libero veniam distinctio aliquam ipsa
+                         necessitatibus commodi at doloribus laudantium blanditiis inventore.
                     </p>
-                    <br>
-                    <br>
-                    <div class="web-wrap">
-                        <div class="web-item">
-                            <img src="./images/SVG/ui and ux.png" alt="#" class="web-icon" style="background-color: rgba(107, 83, 247, 0.884);">
-                            <br>
-                            <h3>UI & UX Design</h3>
-                            <p>Lorem ipsum doir deefas t <br>Lorem ipsum doir deefas t </p>
+                    <div class="mobileapp-wrap">
+                        <div class="mobileapp-item">
+                            <img src="./images/SVG/ui and ux.png" alt="#" class="mobileapp-icon icon3">
+                             
+                            <h3 class="section__subtitle">UI & UX Design</h3>
+                            <p class="sub-paragraph">Lorem ipsum doir deefas t Lorem ipsum doir deefas t </p>
                         </div>
-                        <div class="web-item">
-                            <img src="./images/SVG/react.png" alt="#" class="web-icon" style="background-color: rgba(255, 176, 85, 0.836);">
-                            <br>
-                            <h3>React & Vua JS</h3>
-                            <p>Lorem ipsum doir deefas t <br>Lorem ipsum doir deefas t </p>
+                        <div class="mobileapp-item">
+                            <img src="./images/SVG/react.png" alt="#" class="mobileapp-icon icon4">
+                            <h3 class="section__subtitle">React & vue js</h3>
+                            <p class="sub-paragraph">Lorem ipsum doir deefas t Lorem ipsum doir deefas t </p>
                         </div>
                     </div>
                 </div>
                 <img src="./images/laptop.png" alt="#" class="web-img">
             </div>
+            <div class="circle-green"></div>
         </section>
-        <section>
-            <div class="signup">
+        <section class="signup">
+            <div class="container signup">
                 <div class="signup-item">
-                    <h1>sign up first</h1>
-                    <p>There will be many benefits that you will get</p>
+                    <h1 class="section__title">sign up first</h1>
+                    <p class="paragraph__text">There will be many benefits that you will get</p>
                     <button class="btn">Sign Up Now</button>
                 </div>
                 <img src="./images/SignUp.jpg" alt="!" class="signup-img">
             </div>
+            <div class="circle"></div>
+            <div class="circle circle2"></div>
         </section>
     </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-col">
+                <img src="./images/pj logo.png" alt="logo" class="logo">
+                <p class="sub-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis expedita</p>
+                <div class="icon-grp">
+                    <a href="" >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                          </svg>
+                    </a>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                          </svg>
+                    </a>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                          </svg>
+                    </a>
+                    
+                </div>
+            </div>
+            <div class="footer-col">
+                <p class="section__subtitle">Resources</p>
+                <p class="paragraph__text">Home</p>
+                <p class="paragraph__text">Who We Are?</p>
+                <p class="paragraph__text">What We Do?</p>
+                <p class="paragraph__text">Project Delivery</p>
+                <p class="paragraph__text">Our Product</p>
+            </div>
+            <div class="footer-col">
+                <p class="section__subtitle">Usefull Links</p>
+                <p class="paragraph__text">Team</p>
+                <p class="paragraph__text">Blog</p>
+                <p class="paragraph__text">History</p>
+                <p class="paragraph__text">Contact Us</p>
+                <p class="paragraph__text">Locations</p>
+            </div>
+            <div class="footer-col">
+                <p class="section__subtitle">NEWSLETTER</p>
+                <p class="sub-paragraph">Over 25000 people have subscribed</p>
+                <div class="footer__input">
+                    <input type="text" placeholder="Enter your email">
+                    <button class="btn">Subscribe</button>
+                </div>
+                <p class="sub-paragraph">Web don't sell your email and spam</p>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
