@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     font-family: Roboto;
     
 }
@@ -65,7 +66,7 @@ section{
 /*fonts*/
 .paragraph__text{
     color: var(--sub-text-color);
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-light);
     font-size: var(--font-size-md);
     line-height: 1.2rem;
 }
@@ -324,29 +325,70 @@ section{
     position: relative;
     display: flex;
     align-items: flex-end;
+    
     height: 30rem;
     bottom: -1.3rem;
 }
 .footer-col{
-   width: 25%;
+   width:25%;
+  
+  
+}
+.footer-col:nth-child(2) ,
+.footer-col:nth-child(3) {
+    
+    width:fit-content;
+}
+.footer-col > .paragraph__text{
+    position: relative;
+    width: fit-content;
+     padding: 2px;
+   
+    
+   
+}
+.footer-col > .paragraph__text:hover{
+    cursor: pointer;
+    color: var(--primary-blue-hover);
+}
+.footer-col > .paragraph__text::before{
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    width: 100%;
+    display: block;
+    border-bottom: 2px solid var(--primary-blue-hover);
+    transform: scale(0);
+    transform-origin: right;
+    transition: transform 0.3s ease-in-out;
+    
+}
+.footer-col > .paragraph__text:hover::before{
+   
+   transform: scale(1);
+   transform-origin: left;
 }
 .icon-grp{
     display: flex;
     gap: 1rem;
 }
+
 .icon-grp a{
     
     color: orange;
-    border: 2px solid orange;
+    outline: 2px solid orange;
+    border: 3px solid transparent;
     margin-right: 0.2rem;
     border-radius: 50%;
-    padding: 10px;
-    transition: all 0.2s ease-in-out;
+    padding: 7px;
+    padding-bottom: 4px;
+    transition-property: "border-color";
+    transition: 0.4s ease-in-out;
     
 }
 .icon-grp a:hover{
-    border-width: 5px;
-    padding: 7px;
+    border-color: orange;
+    
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.295);
 }
 
@@ -355,12 +397,15 @@ section{
 }
 .footer__input{
     position: relative;
+    
+    
 }
 .footer__input input{
     font-size: var(--font-size-md);
     padding: 0.7rem;
     border: 2px solid var(--primary-blue-hover);
     border-radius: 0.4rem;
+    outline: none;
     width: 17.4rem;
 }
 .footer__input button{
