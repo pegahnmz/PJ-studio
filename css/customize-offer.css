@@ -1,0 +1,40 @@
+
+/* customize offer*/
+
+.customize-offers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    
+}
+
+.customize-offers-img{
+    height: 27rem;
+}
+
+
+.mo-tags{
+    width: 27rem;
+    padding: 0.5rem 1.5rem;
+    padding-bottom: 1.5rem;
+    border-left: 0.2rem solid ;
+    box-shadow: 0px 0px 10px 0px rgb(212, 212, 212);
+    border-radius: 0.4rem;
+    transition: all 0.3s ease-in-out ;
+}
+.mo-tags:nth-child(1){
+    border-color: orange;
+}
+.mo-tags:nth-child(2){
+    border-color: purple;
+}
+.mo-tags:nth-child(3){
+    border-color: green;
+}
+.mo-tags:hover{
+    cursor: pointer;
+    transform: translateX(1rem);
+    background-color: rgba(0, 0, 0, 0.007);
+     
+}

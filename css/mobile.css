@@ -1,0 +1,50 @@
+/*mobile*/
+.mobile{
+    background-color: var(--gray-background);
+    height: 26.5rem;
+    margin: 20rem 0;
+}
+.mobile .container{
+    justify-content: center !important;
+    position: relative;
+     
+    top: -7rem;
+    
+}
+
+
+.mobileapp-img{
+    height: 40rem;
+}
+.mobileapp-features{
+    background-color: white;
+    height: fit-content;
+    padding: 0.4rem 2.5rem;
+    padding-bottom: 1rem;
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+   
+}
+.mobileapp-icon{
+    height: 2.5rem;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+}
+.mobileapp-item{
+    width: 14rem;
+}
+.mobileapp-wrap{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+}
+.icon1{
+    background-color: rgb(148, 216, 148);
+}
+.icon2{
+    background-color: rgb(148, 180, 216);
+}

@@ -1,0 +1,43 @@
+
+/*progress*/
+.process{
+    gap:1.5rem !important
+}
+.process-icon{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 0.5rem;
+    padding:1rem;
+    
+}
+
+.process-tag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    height: 14rem;
+    background-color: var(--gray-background);
+    
+    border-radius: 0.5rem;
+    padding: 2rem 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.process-tag:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+    box-shadow: 5px 5px 10px 0px rgba(126, 124, 124, 0.678);
+}
+
+.daily-icon{
+    background-color: rgb(241, 172, 93);
+}
+.security-icon{
+    background-color: rgb(157, 157, 226);
+}
+.testing-icon{
+    background-color: rgb(238, 95, 95);
+}

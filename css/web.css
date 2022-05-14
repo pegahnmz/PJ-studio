@@ -1,0 +1,25 @@
+
+/*web*/
+.icon3{
+    background-color: rgba(107, 83, 247, 0.884);
+}
+.icon4{
+    background-color: rgba(255, 176, 85, 0.836);
+}
+.web{
+    background-color: rgba(252, 240, 240, 0.575);
+    position: relative;
+}
+.web-img{
+   width:40rem;
+}
+.circle-green{
+    width: 15rem;
+    height: 15rem;
+    background-color: rgb(80, 144, 80);
+    border-radius: 50%;
+    position:absolute;
+    right:5rem;
+    bottom: 1rem;
+    z-index: -1;
+}

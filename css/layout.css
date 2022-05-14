@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*,
+*::after,
+*::before{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: Roboto;
+    
+}
+
+:root{
+    /*colors*/
+    --primary-blue:rgb(120, 83, 247);
+    --primary-blue-hover:rgb(103, 85, 160);
+    --gray-background:rgba(227, 230, 237, 0.312);
+    /*text colors*/
+    --main-text-color:black;
+    --sub-text-color:grey;
+    --light-text-color:snow;
+
+    /*font size*/
+    --font-size-sm:0.9rem;
+    --font-size-md:0.9rem;
+    --font-size-lg:1.2rem;
+    --font-size-xl:2rem;
+    --font-size-xxl:3rem;
+
+    /*font weight*/
+    --font-weight-light:500;
+    --font-weight-bold:600;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+section{
+    margin: 6.2rem 0;
+    
+ }
+.container{
+    margin:1.5rem 11rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;  
+}
+.btn{
+    border: none;
+    padding: 0.6rem;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    background-color: var(--primary-blue);
+    color: var(--light-text-color);
+    font-size: var(--font-size-md);
+}
+.btn:hover{
+    background-color: var(--primary-blue-hover);
+}
+
+/*fonts*/
+.paragraph__text{
+    color: var(--sub-text-color);
+    font-weight: var(--font-weight-light);
+    font-size: var(--font-size-md);
+    line-height: 1.2rem;
+}
+.sub-paragraph{
+    color: var(--sub-text-color);
+    font-size: var(--font-size-md);
+    line-height: 1.4rem !important;
+    
+}
+.section__title{
+    font-weight:100px;
+    font-size: var(--font-size-xxl);
+    margin-bottom: 0.5rem;
+}
+.section__subtitle{
+    font-size: var(--font-size-lg);
+   font-weight: var(--font-weight-bold);
+    line-height: 3rem;
+}

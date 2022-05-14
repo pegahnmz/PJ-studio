@@ -1,0 +1,19 @@
+
+.logo{
+    height:3.8rem;
+}
+.nav__list{
+    display: flex;
+    gap: 2.7rem;
+}
+.nav__item{
+    
+}
+.nav__link{
+    font-size: var(--font-size-md);
+    color: var(--main-text-color);
+    transition: all 0.3s ease 0s;
+}
+.nav__link:hover{
+    color: var(--primary-blue);
+}
